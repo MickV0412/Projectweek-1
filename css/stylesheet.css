@@ -50,3 +50,144 @@ a:hover {
     margin-right: 37%;
     cursor: pointer;
 }
+.form-section {
+    max-width: 600px;
+    background: rgba(24, 38, 50, 0.5);
+    font-family: Montserrat, sans-serif;
+    border-radius: 20px;
+    margin: 60px auto;
+    padding: 20px 20px;
+}
+.form-title {
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+    background: rgba(24, 38, 50, 1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    max-width: 450px;
+    margin-left: 65px;
+    padding: 16px;
+    color: white;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contact-form select {
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    cursor: pointer;
+}
+
+.contact-form option {
+    background: rgba(24, 38, 50, 1);
+    color: white;
+}
+.send-btn {
+    background: whitesmoke;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    max-width: 110px;
+    margin-left: 265px;
+    padding: 16px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.send-btn:hover {
+    transform: translateY(-2px);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+contact-title {
+    color: hsl(266, 30%, 26%);
+    font-size: 66px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Locaties-title {
+    color: hsl(266, 30%, 26%);
+    font-size: 48px;
+    font-style: Montserrat, sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.locations-container {
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.map-iframe {
+    flex: 1;
+    min-height: 500px;
+    border-radius: 8px;
+}
+
+.locations-sidebar {
+    flex: 0 0 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+.location-card {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.location-card h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.route-btn, .phone-btn {
+    padding: 8px 16px;
+    margin: 5px 5px 5px 0;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.route-btn {
+    background: #6366f1;
+    color: white;
+}
+
+.phone-btn {
+    background: white;
+    border: 2px solid #6366f1;
+    color: #6366f1;
+}
