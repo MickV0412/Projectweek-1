@@ -84,14 +84,15 @@ a:hover {
 
 .form-section {
     max-width: 600px;
-    background: rgba(24, 38, 50, 0.5);
+    background: #d4e8f0;
     font-family: Montserrat, sans-serif;
     border-radius: 20px;
     margin: 60px auto;
+    margin-top: 160px;
     padding: 20px 20px;
 }
 .form-title {
-    color: white;
+    color: hsl(266, 30%, 26%);
     font-size: 48px;
     font-weight: 500;
     margin-bottom: 32px;
