@@ -220,3 +220,73 @@ contact-title {
     font-weight: 600;
     font-size: 25px;
 }
+.footer-contact {
+    font-family: Montserrat, sans-serif;
+    background: #d4e8f0;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+.footer-contact h2 {
+    color: #2d2654;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.footer-contact p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.phone-box {
+    background: #a8d5e8;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.phone-number {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2d2654;
+    margin: 0;
+}
+
+.phone-label {
+    color: #555;
+    font-size: 14px;
+    margin: 5px 0 0 0;
+}
+
+.socials-label {
+    color: #666;
+    margin: 20px 0 10px 0;
+    font-size: 14px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #6366f1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6366f1;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.social-icon:hover {
+    background: #6366f1;
+    color: white;
+}
