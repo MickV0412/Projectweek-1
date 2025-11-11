@@ -10,9 +10,6 @@ a{
     font-family: "Montserrat", sans-serif;
 }
 a:hover{
-    color: white;
+    color: rgb(255, 255, 255);
     transition: 0.4s;
-}
-.white-color{
-    color: white;
 }
