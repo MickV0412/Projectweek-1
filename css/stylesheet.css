@@ -1,7 +1,9 @@
 body {
     background: linear-gradient(to bottom, white, #ffffff, #a8d5e8);
 }
-
+html{
+    scroll-behavior: smooth;
+}
 a {
     text-decoration: none;
     color: black;
