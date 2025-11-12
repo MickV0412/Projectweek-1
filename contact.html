@@ -40,7 +40,7 @@
     <!--Main-->
     <main>
         <div class="form-section">
-            <h2 class="form-title">Stuur ons een mail</h2>
+            <h2 class="form-title">Stuur ons een e-mail</h2>
             <form class="contact-form">
                 <input type="email" placeholder="Your email" required>
                 <input type="text" placeholder="Your name" required>
@@ -52,64 +52,89 @@
             <h1 class="Locaties-title">Locaties van ROC Nijmegen</h1>
             <div class="locations-container">
                 <!-- Map on the left -->
-                <iframe class="map-iframe"
+                <iframe id="locationMap" class="map-iframe"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2450.5!2d5.852!3d51.8425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7a5c5c5c5c5c5%3A0x1234567890!2sROC%20Nijmegen!5e0!3m2!1sen!2snl!4v1234567890"
                     style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <!-- Sidebar on the right -->
                 <div class="locations-sidebar">
-                    <div class="location-card">
+                    <div class="location-card" onclick="updateMap('5.852,51.8425')">
                         <h3>Campusbaan</h3>
                         <p>Campusbaan 6<br>6512 BT Nijmegen</p>
                         <button class="route-btn">Route</button>
                         <button class="phone-btn">9292</button>
-                        <a href="#">Bekijk locatie ></a>
+                        <div>Bekijk locatie ></div>
                     </div>
 
-                    <div class="location-card">
+                    <div class="location-card" onclick="updateMap('5.947,51.645')">
                         <h3>Begijnenstraat Boxmeer</h3>
                         <p>Begijnenstraat 2<br>5831 EM Boxmeer</p>
                         <button class="route-btn">Route</button>
                         <button class="phone-btn">9292</button>
-                        <a href="#">Bekijk locatie ></a>
+                        <div>Bekijk locatie ></div>
                     </div>
 
-                    <div class="location-card">
+                    <div class="location-card" onclick="updateMap('5.851,51.828')">
                         <h3>Energieweg</h3>
                         <p>Energieweg 25<br>6541 CW Nijmegen</p>
                         <button class="route-btn">Route</button>
                         <button class="phone-btn">9292</button>
-                        <a href="#">Bekijk locatie ></a>
+                        <div>Bekijk locatie ></div>
                     </div>
 
-                    <div class="location-card">
+                    <div class="location-card" onclick="updateMap('5.868,51.827')">
                         <h3>Heyendaalseweg</h3>
                         <p>Heyendaalseweg 98<br>6525 EE Nijmegen</p>
                         <button class="route-btn">Route</button>
                         <button class="phone-btn">9292</button>
-                        <a href="#">Bekijk locatie ></a>
+                        <div>Bekijk locatie ></div>
                     </div>
 
-                    <div class="location-card">
+                    <div class="location-card" onclick="updateMap('5.851,51.828')">
                         <h3>Marterstraat</h3>
                         <p>Marterstraat 45<br>6531 KA Nijmegen</p>
                         <button class="route-btn">Route</button>
                         <button class="phone-btn">9292</button>
-                        <a href="#">Bekijk locatie ></a>
+                        <div>Bekijk locatie ></div>
                     </div>
                 </div>
             </div>
         </div>
+        <script>
+            function updateMap(coords) {
+                const [lng, lat] = coords.split(',');
+                const mapUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2450.5!2d${lng}!3d${lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${lat},${lng}!5e0!3m2!1sen!2snl!4v1234567890`;
+                document.getElementById('locationMap').src = mapUrl;
+            }
+        </script>
     </main>
     <!--Footer-->
     <footer>
         <div class="footer-contact">
             <h2>We zijn ook telefonisch bereikbaar</h2>
-            <p>Bij ons op werkdagen tussen 08:00 en 16:30 uur.</p>
+            <p>Bel ons op werkdagen tussen 08:00 en 16:30 uur.</p>
 
             <div class="phone-box">
                 <p class="phone-number">024 - 89 04 500</p>
                 <p class="phone-label">Algemeen nummer</p>
+            </div>
+        </div>
+    <div class="footer-top">
+            <div class="footer-column">
+                <span class="footer-icon">❓</span>
+                <h3>Veelgestelde vragen</h3>
+            </div>
+            <div class="footer-column">
+                <span class="footer-icon">📞</span>
+                <h3>024 - 89 04 500</h3>
+            </div>
+            <div class="footer-column">
+                <span class="footer-icon">✉️</span>
+                <h3>Mail ons</h3>
+            </div>
+            <div class="footer-column">
+                <span class="footer-icon">ℹ️</span>
+                <h3>Studiekeuzadvies</h3>
             </div>
         </div>
     </footer>

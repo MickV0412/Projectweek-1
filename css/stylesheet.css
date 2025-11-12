@@ -9,7 +9,7 @@ a {
 }
 
 a:hover {
-    color: rgb(255, 255, 255);
+    color: #6366f1;
     transition: 0.4s;
 }
 
@@ -40,7 +40,6 @@ a:hover {
 }
 
 .nav-text {
-    color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     gap: 30px;
@@ -224,6 +223,7 @@ a:hover {
 
 contact-title {
     color: hsl(266, 30%, 26%);
+    font-family: Montserrat, sans-serif;
     font-size: 66px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -233,7 +233,7 @@ contact-title {
 .Locaties-title {
     color: hsl(266, 30%, 26%);
     font-size: 48px;
-    font-style: Montserrat, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: bold;
     margin-bottom: 40px;
     text-align: center;
@@ -311,7 +311,7 @@ contact-title {
 
 .SecHome {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
@@ -321,13 +321,11 @@ contact-title {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
     font-size: 25px;
-    margin-left: 25px;
 
 }
 
 .footer-contact {
     font-family: Montserrat, sans-serif;
-    background: #d4e8f0;
     padding: 40px;
     border-radius: 12px;
     text-align: center;
@@ -342,12 +340,12 @@ contact-title {
 }
 
 .footer-contact p {
-    color: #666;
+    color: #2d2654;
     margin-bottom: 20px;
 }
 
 .phone-box {
-    background: #a8d5e8;
+    background: #d4e8f0;
     padding: 20px;
     border-radius: 20px;
     margin: 20px 0;
@@ -361,41 +359,10 @@ contact-title {
 }
 
 .phone-label {
-    color: #555;
+    color: #2d2654;
     font-size: 14px;
     margin: 5px 0 0 0;
 }
-
-.socials-label {
-    color: #666;
-    margin: 20px 0 10px 0;
-    font-size: 14px;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.social-icon {
-    width: 45px;
-    height: 45px;
-    border: 2px solid #6366f1;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #6366f1;
-    text-decoration: none;
-    transition: all 0.3s;
-}
-
-.social-icon:hover {
-    background: #6366f1;
-    color: white;
-}
-
 .login-container {
     display: flex;
     justify-content: flex-end;
@@ -417,7 +384,7 @@ contact-title {
 
 .ThirdHome {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
@@ -427,8 +394,6 @@ contact-title {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
     font-size: 25px;
-    margin-right: 25px;
-
 }
 
 .FourthHome {
@@ -491,6 +456,78 @@ contact-title {
     font-weight: 600;
 }
 
+.vakken {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.vakken h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.vakken-box {
+    background: white;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    padding: 40px 60px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    max-width: 800px;
+    width: 100%;
+}
+
+.vakken-list {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+}
+
+.vakken-list li {
+    background: linear-gradient(135deg, #4a4a4a 0%, #2c2c2c 100%);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.vakken-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #2c2c2c 0%, #000000 100%);
+}
+
+
+@media (max-width: 768px) {
+    .vakken h2 {
+        font-size: 36px;
+    }
+
+    .vakken-box {
+        padding: 30px 25px;
+    }
+
+    .vakken-list li {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
 .sdinfobol-blok {
     display: flex;
     justify-content: center;
@@ -516,7 +553,14 @@ contact-title {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
 }
-
+.footer-top {
+    background: #a8d5e8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 40px;
+    font-family: Montserrat, sans-serif;
+}
 .secmain-sdinfo {
     display: flex;
     justify-content: center;
@@ -576,4 +620,28 @@ contact-title {
     font-weight: bold;
     font-size: 25px;
     margin-left: 25px;
+}
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.footer-column:hover {
+    transform: translateY(-5px);
+}
+
+.footer-icon {
+    font-size: 28px;
+}
+
+.footer-column h3 {
+    color: #2d2654;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
 }
