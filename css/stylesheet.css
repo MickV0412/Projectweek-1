@@ -338,13 +338,28 @@ contact-title {
     background: #6366f1;
     color: white;
 }
-
+.login-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 90px;
+    flex: 1;
+}
+.login-btn {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
 .ThirdHome {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-
 .ThirdHome-text {
     color: black;
     margin-top: 50px;
@@ -377,3 +392,4 @@ contact-title {
     align-items: center;
     border-radius: 25px;
 }
+
