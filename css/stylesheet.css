@@ -1,7 +1,10 @@
 body {
     background: linear-gradient(to bottom, white, #ffffff, #a8d5e8);
+    
 }
-
+html{
+    scroll-behavior: smooth;
+}
 a {
     text-decoration: none;
     color: black;
@@ -53,7 +56,6 @@ a:hover {
 
 .main-title {
     display: flex;
-    color: hsl(266, 30%, 26%);
     font-family: "Montserrat", sans-serif;
     justify-content: center;
     margin-top: 175px;
@@ -79,7 +81,6 @@ a:hover {
 
 .leren {
     display: flex;
-    color: hsl(266, 30%, 26%);
     font-family: "Montserrat", sans-serif;
     justify-content: center;
     margin-top: 100px;
@@ -305,7 +306,7 @@ a:hover {
 }
 
 .MainHome-text {
-    color: hsl(266, 30%, 26%);
+    color: black;
     margin-top: 150px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -573,7 +574,7 @@ a:hover {
 
 .info-box {
     background: #d4e8f0;
-    border: 5px solid hsl(266, 30%, 26%);
+    border: 5px solid #000000;
     border-radius: 20px;
     padding: 40px 60px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
@@ -581,10 +582,6 @@ a:hover {
     width: 100%;
     margin-bottom: 25px;
     margin-top: 100px;
-}
-.info-box h2 {
-    color: hsl(266, 30%, 26%);
-    margin-left: 25px
 }
 
 .info-list {
@@ -650,5 +647,9 @@ a:hover {
 
 .info-list2 li:hover {
     transform: translateY(-5px);
+
 }
+
+
+
 
