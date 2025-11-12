@@ -390,34 +390,64 @@ contact-title {
 
 }
 
-.sdinfo {
+.main-sdinfo {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-}
-
-.sdinfo-container {
     border-radius: 25px;
     background-color: rgb(238, 230, 230);
     height: 120px;
     width: 1200px;
     border-width: 3px;
+    gap: 10px;
 }
+
+
 
 .sdinfo-container-text {
     color: black;
     margin-top: 50px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 25px;
     margin-left: 25px;
 }
 
 .sdinfonivau-blok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 25px;
     background-color: lightgray;
-    height: 25px;
-    width: 175px;
+    height: 30px;
+    width: 200px;
     border-width: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.sdinfobol-blok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: lightgray;
+    height: 30px;
+    width: 200px;
+    border-width: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.sdinfojaren-blok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: lightgray;
+    height: 30px;
+    width: 200px;
+    border-width: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
 }
