@@ -254,7 +254,7 @@ contact-title {
 
 .SecHome {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -264,6 +264,7 @@ contact-title {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
     font-size: 25px;
+    margin-left: 25px;
 
 }
 
@@ -356,7 +357,7 @@ contact-title {
 }
 .ThirdHome {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 .ThirdHome-text {
@@ -365,4 +366,30 @@ contact-title {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
     font-size: 25px;
+    margin-right: 25px; 
+
 }
+
+.FourthHome {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.FourthHome-text {
+    color: black;
+    margin-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 25px;
+
+}
+
+.sdinfo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
