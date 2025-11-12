@@ -125,12 +125,6 @@ a:hover {
     transform: translateY(-4px);
     border-color: rgba(100, 150, 255, 0.3);
 }
-.info-box:hover {
-    box-shadow: 0 0 20px rgba(152, 154, 158, 0.4),
-        0 0 40px rgba(186, 187, 188, 0.2);
-    transform: translateY(-4px);
-    border-color: rgba(100, 150, 255, 0.3);
-}
 .text-icons {
     font-family: "lato", sans-serif;
     font-weight: 600;
