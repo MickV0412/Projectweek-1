@@ -22,7 +22,7 @@ a:hover {
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(180, 180, 180, 0.684) ;
+    background-color: rgba(180, 180, 180, 0.684);
     height: 80px;
     width: 100%;
     z-index: 100;
@@ -51,7 +51,8 @@ a:hover {
     margin-right: 37%;
     cursor: pointer;
 }
-.main-title{
+
+.main-title {
     display: flex;
     font-family: "Montserrat", sans-serif;
     justify-content: center;
@@ -59,13 +60,15 @@ a:hover {
     font-weight: 700;
     font-size: 50px;
 }
-.sub-title{
+
+.sub-title {
     display: flex;
     font-family: "Montserrat", sans-serif;
     justify-content: center;
     font-weight: 500;
 }
-.info{
+
+.info {
     display: flex;
     font-family: "Montserrat", sans-serif;
     justify-content: center;
@@ -73,7 +76,8 @@ a:hover {
     font-weight: 300;
     font-size: 20px;
 }
-.leren{
+
+.leren {
     display: flex;
     font-family: "Montserrat", sans-serif;
     justify-content: center;
@@ -91,6 +95,7 @@ a:hover {
     margin-top: 160px;
     padding: 20px 20px;
 }
+
 .form-title {
     color: hsl(266, 30%, 26%);
     font-size: 48px;
@@ -98,11 +103,13 @@ a:hover {
     margin-bottom: 32px;
     text-align: center;
 }
+
 .contact-form {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
+
 .contact-form input,
 .contact-form textarea,
 .contact-form select {
@@ -133,6 +140,7 @@ a:hover {
     background: rgba(24, 38, 50, 1);
     color: white;
 }
+
 .send-btn {
     background: whitesmoke;
     color: black;
@@ -156,6 +164,7 @@ a:hover {
 .contact-form textarea::placeholder {
     color: rgba(255, 255, 255, 0.5);
 }
+
 contact-title {
     color: hsl(266, 30%, 26%);
     font-size: 66px;
@@ -163,6 +172,7 @@ contact-title {
     margin-bottom: 20px;
     text-align: center;
 }
+
 .Locaties-title {
     color: hsl(266, 30%, 26%);
     font-size: 48px;
@@ -171,6 +181,7 @@ contact-title {
     margin-bottom: 40px;
     text-align: center;
 }
+
 .locations-container {
     display: flex;
     font-family: Montserrat, sans-serif;
@@ -198,7 +209,7 @@ contact-title {
     border: 1px solid #e0e0e0;
     border-radius: 12px;
     padding: 15px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .location-card h3 {
@@ -206,7 +217,8 @@ contact-title {
     color: #333;
 }
 
-.route-btn, .phone-btn {
+.route-btn,
+.phone-btn {
     padding: 8px 16px;
     margin: 5px 5px 5px 0;
     border-radius: 20px;
@@ -252,6 +264,7 @@ contact-title {
     font-weight: 600;
     font-size: 25px;
 }
+
 .footer-contact {
     font-family: Montserrat, sans-serif;
     background: #d4e8f0;
@@ -321,4 +334,18 @@ contact-title {
 .social-icon:hover {
     background: #6366f1;
     color: white;
+}
+
+.ThirdHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ThirdHome-text {
+    color: black;
+    margin-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
 }
