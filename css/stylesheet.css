@@ -217,6 +217,7 @@ a:hover {
 
 contact-title {
     color: hsl(266, 30%, 26%);
+    font-family: Montserrat, sans-serif;
     font-size: 66px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -226,7 +227,7 @@ contact-title {
 .Locaties-title {
     color: hsl(266, 30%, 26%);
     font-size: 48px;
-    font-style: Montserrat, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: bold;
     margin-bottom: 40px;
     text-align: center;
