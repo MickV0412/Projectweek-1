@@ -85,7 +85,8 @@ a:hover {
     font-weight: 700;
     font-size: 50px;
 }
-.leren-info{
+
+.leren-info {
     display: flex;
     font-family: "Montserrat", sans-serif;
     justify-content: center;
@@ -93,6 +94,7 @@ a:hover {
     font-weight: 300;
     font-size: 20px;
 }
+
 .works-text {
     font-family: "Lato", sans-serif;
     font-weight: 600;
@@ -106,12 +108,13 @@ a:hover {
     justify-content: center;
     gap: 25px;
 }
+
 .icon-boxed {
     margin-top: 30px;
     padding: 20px;
     border: 1px solid rgba(139, 139, 139, 0.684);
     border-radius: 16px;
-    background-color: rgba(180, 180, 180, 0.684) ;
+    background-color: rgba(180, 180, 180, 0.684);
     transition: all 0.4s;
     width: 60px;
     height: 60px;
@@ -123,6 +126,7 @@ a:hover {
     transform: translateY(-4px);
     border-color: rgba(100, 150, 255, 0.3);
 }
+
 .text-icons {
     font-family: "lato", sans-serif;
     font-weight: 600;
@@ -133,10 +137,12 @@ a:hover {
     margin-top: 15px;
     color: rgb(0, 0, 0);
 }
+
 .text-icon-boxed {
     width: 100px;
     text-align: center;
 }
+
 .form-section {
     max-width: 600px;
     background: #d4e8f0;
@@ -422,7 +428,6 @@ contact-title {
     font-weight: 600;
     font-size: 25px;
     margin-right: 25px;
-
 }
 
 .FourthHome {
@@ -471,4 +476,76 @@ contact-title {
     height: 25px;
     width: 175px;
     border-width: 3px;
+}
+
+.vakken {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.vakken h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.vakken-box {
+    background: white;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    padding: 40px 60px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    max-width: 800px;
+    width: 100%;
+}
+
+.vakken-list {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+}
+
+.vakken-list li {
+    background: linear-gradient(135deg, #4a4a4a 0%, #2c2c2c 100%);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.vakken-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #2c2c2c 0%, #000000 100%);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .vakken h2 {
+        font-size: 36px;
+    }
+
+    .vakken-box {
+        padding: 30px 25px;
+    }
+
+    .vakken-list li {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
 }
