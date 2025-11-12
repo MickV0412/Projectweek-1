@@ -198,8 +198,8 @@ a:hover {
 }
 
 .send-btn {
-    background: whitesmoke;
-    color: black;
+    background: rgba(24, 38, 50, 1);
+    color: whitesmoke;
     border: none;
     border-radius: 12px;
     max-width: 110px;
