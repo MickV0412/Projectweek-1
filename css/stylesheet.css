@@ -85,7 +85,8 @@ a:hover {
     font-weight: 700;
     font-size: 50px;
 }
-.leren-info{
+
+.leren-info {
     display: flex;
     font-family: "Montserrat", sans-serif;
     justify-content: center;
@@ -93,6 +94,7 @@ a:hover {
     font-weight: 300;
     font-size: 20px;
 }
+
 .works-text {
     font-family: "Lato", sans-serif;
     font-weight: 600;
@@ -106,12 +108,13 @@ a:hover {
     justify-content: center;
     gap: 25px;
 }
+
 .icon-boxed {
     margin-top: 30px;
     padding: 20px;
     border: 1px solid rgba(139, 139, 139, 0.684);
     border-radius: 16px;
-    background-color: rgba(180, 180, 180, 0.684) ;
+    background-color: rgba(180, 180, 180, 0.684);
     transition: all 0.4s;
     width: 60px;
     height: 60px;
@@ -123,6 +126,7 @@ a:hover {
     transform: translateY(-4px);
     border-color: rgba(100, 150, 255, 0.3);
 }
+
 .text-icons {
     font-family: "lato", sans-serif;
     font-weight: 600;
@@ -133,10 +137,12 @@ a:hover {
     margin-top: 15px;
     color: rgb(0, 0, 0);
 }
+
 .text-icon-boxed {
     width: 100px;
     text-align: center;
 }
+
 .form-section {
     max-width: 600px;
     background: #d4e8f0;
@@ -445,16 +451,24 @@ contact-title {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     border-radius: 25px;
     background-color: rgb(238, 230, 230);
-    height: 120px;
-    width: 1200px;
     border-width: 3px;
-    gap: 10px;
+    gap: 20px;
+    margin-top: 175px;
 }
-
-
-
+.main-sdinfo-reverse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 25px;
+    background-color: rgb(238, 230, 230);
+    border-width: 3px;
+    gap: 20px;
+    margin-top: 175px;
+}
 .sdinfo-container-text {
     color: black;
     margin-top: 50px;
@@ -503,3 +517,63 @@ contact-title {
     font-weight: 600;
 }
 
+.secmain-sdinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: rgb(238, 230, 230);
+    height: 350px;
+    width: 350px;
+    border-width: 3px;
+    gap: 20px;
+}
+
+.aanmelden-blok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: lightgray;
+    height: 30px;
+    width: 200px;
+    border-width: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.opendagen-blok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: lightgray;
+    height: 30px;
+    width: 200px;
+    border-width: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.meelopen-blok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: lightgray;
+    height: 30px;
+    width: 200px;
+    border-width: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.secmainsdinfo-maintext {
+    color: black;
+    margin-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 25px;
+}
