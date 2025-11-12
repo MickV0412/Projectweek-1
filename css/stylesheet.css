@@ -1,5 +1,5 @@
 body {
-    background: white;
+    background: linear-gradient(to bottom, white, #ffffff, #a8d5e8);
 }
 
 a {
@@ -22,7 +22,7 @@ a:hover {
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(180, 180, 180, 0.684);
+    background-color: white;
     height: 80px;
     width: 100%;
     z-index: 100;
