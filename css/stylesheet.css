@@ -639,3 +639,6 @@ a:hover {
     cursor: pointer;
     
 }
+.info-list2 li:hover {
+    transform: translateY(-5px);
+}
