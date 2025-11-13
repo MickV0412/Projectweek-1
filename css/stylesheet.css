@@ -659,7 +659,10 @@ a:hover {
 }
 
 .info-card {
-    max-width: 500px;
+    display: flex;
+    gap: 50px;
+    min-width: 800px;
+    justify-content: center;
     margin: 60px auto;
     padding: 0 20px;
 }
@@ -817,4 +820,79 @@ a:hover {
     justify-content: space-around;
     margin-top: 15px;
     color: rgb(0, 0, 0);
+}
+.open-days-card {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.open-days-content {
+    background: white;
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.open-days-content h2 {
+    margin: 0 0 25px 0;
+    color: #2d3e50;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.open-day-item {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.open-day-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.open-day-header {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.calendar-icon {
+    font-size: 24px;
+    color: #8b9dc3;
+    min-width: 30px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.open-day-date h3 {
+    margin: 0 0 3px 0;
+    color: #2d3e50;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.open-day-date p {
+    margin: 0;
+    color: #999;
+    font-size: 13px;
+}
+
+.arrow-icon {
+    font-size: 24px;
+    color: #8b9dc3;
+    margin-left: auto;
+}
+
+.open-day-description {
+    margin: 8px 0 0 45px;
+    color: #2d3e50;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.3;
 }
