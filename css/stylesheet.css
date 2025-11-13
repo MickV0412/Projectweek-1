@@ -772,7 +772,6 @@ a:hover {
 .bedrijf-icons {
     display: flex;
     align-items: center;
-
     justify-content: center;
     gap: 25px;
     font-family: "Lato", sans-serif;
@@ -783,16 +782,10 @@ a:hover {
 .app-icons {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 25px;
+    justify-content: space-around;
     font-family: "Lato", sans-serif;
     font-weight: 600;
     margin-top: 25px;
-
-    justify-content: space-around;
-     font-family: "Lato", sans-serif;
-     font-weight: 600;
-     margin-top: 25px;
 
 }
 
